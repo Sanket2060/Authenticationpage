@@ -10,7 +10,7 @@ function App() {
   const [password, setpassword] = useState("");
 
 
-  const thepasswordfunc = (event) => {
+  const thepasswordfunc = (event) => {   //Yesma event undefined vaniraxa
     setpassword(event.target.value);
     console.log(password);
   }
